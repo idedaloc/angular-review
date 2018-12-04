@@ -1,4 +1,4 @@
-export class Pointer3 {
+class Pointer3 {
     constructor(_x, _y) {
         this._x = _x;
         this._y = _y;
@@ -18,3 +18,4 @@ export class Pointer3 {
         this._y = value;
     }
 }
+module.exports = Pointer3;

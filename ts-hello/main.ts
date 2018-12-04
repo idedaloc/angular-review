@@ -1,3 +1,4 @@
+
 function loger(message) {
     console.log(message);
 }
@@ -87,9 +88,9 @@ point3.draw();
 
 /********************************* */
 
-import { Pointer3 } from './point'
+let Pointer5 = require('./point')
 
-let point4 = new Pointer3(1,3);
+let point4 = new Pointer5(1,3);
 point4.draw();
 
 point4.setX(3);

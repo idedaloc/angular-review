@@ -1,4 +1,4 @@
-export class Pointer3 {
+class Pointer3 {
     constructor(private _x?:number, private _y?:number){}
     draw() {console.log('x:'+this._x +',y: '+ this._y)}
     getDistance() {anotherPoint: Pointer3}
@@ -17,3 +17,5 @@ export class Pointer3 {
     }
 
 }
+
+module.exports = Pointer3;

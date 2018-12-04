@@ -50,8 +50,8 @@ let point3 = new Pointer2();
 point2.draw();
 point3.draw();
 /********************************* */
-import { Pointer3 } from './point';
-let point4 = new Pointer3(1, 3);
+let Pointer5 = require('./point');
+let point4 = new Pointer5(1, 3);
 point4.draw();
 point4.setX(3);
 point4.y = 7;
